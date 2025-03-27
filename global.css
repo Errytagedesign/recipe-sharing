@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.zoomImg {
+  transition: transform 0.4s ease-in-out;
+}
+
+.zoomImg:hover {
+  transform: scale(1.1);
+}
